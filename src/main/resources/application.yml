@@ -1,0 +1,18 @@
+#配置数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+
+    username: root
+    password: root
+  jpa:
+    database: MySQL
+    show-sql: true
+    generate-ddl: true
+
+#redis
+  redis:
+      host: 192.168.13.10
+      port: 6379
+      password: zgj
